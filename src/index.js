@@ -5,6 +5,7 @@ import Contact from './contact';
 import Header from './header';
 import Footer from './footer';
 
+
 document.body.prepend(Header());
 document.body.append(Footer());
 
@@ -37,7 +38,7 @@ function component() {
         content.append(Contact());
     })
 
-    content.append(Home());
+    content.append(Menu());
 }
 
 component();
