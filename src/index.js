@@ -4,8 +4,9 @@ import Menu from './menu';
 import Contact from './contact';
 import Header from './header';
 import Footer from './footer';
+import backgroundImg from './img/mae-mu-Ey2Y2vAmx7Q-unsplash.jpg';
 
-
+document.body.style.backgroundImage = `url(${backgroundImg})`;
 document.body.prepend(Header());
 document.body.append(Footer());
 
@@ -38,7 +39,7 @@ function component() {
         content.append(Contact());
     })
 
-    content.append(Menu());
+    content.append(Home());
 }
 
 component();
